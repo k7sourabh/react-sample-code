@@ -14,15 +14,10 @@ interface IItem {
   total: number;
 }
 
-
-
-
 /**
  * Interface for the address subdocument.
  * Includes the properties of the subdocument.
  */
-
-
 
 interface IAddress {
   street: string;
