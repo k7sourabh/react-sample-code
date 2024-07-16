@@ -15,7 +15,7 @@ function Layout() {
   const location = useLocation();
   const { loaderType, loading } = useLoader();
    
-     console.log("loaderType")
+  
 
   return (
     <Box className={location.pathname !== "/login" ? "mainLayout" : ""}>
