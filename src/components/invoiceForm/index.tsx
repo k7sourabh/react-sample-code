@@ -58,7 +58,7 @@ console.log("object")
     },
     validationSchema,
     onSubmit: async (values, { resetForm, setSubmitting }) => {
-      console.log(values);
+     
    
       const payload = transformPayload(values);
       if (mode === "edit") {
